@@ -1,0 +1,8 @@
+apiVersion: skaffold/v2beta5
+kind: Config
+build:
+  artifacts:
+    - image: alpine-executer
+  local:
+    useDockerCLI: false
+    useBuildkit: false
